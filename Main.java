@@ -1,5 +1,4 @@
 
-
 class Main {
   public static void main(String[] args) {
 
@@ -75,10 +74,10 @@ for ( int j = 1; j < 101; j++) {
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
 System.out.print("Starting at 1000, print on the same line /n (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0");
-for (int a = 1000; a <= 0; a--);
+for (int a = 1000; a >= 0; a--){
     if ( a%10 == 0 ){
         System.out.print(a + "-");
     }
-
+  }
   }
 }
